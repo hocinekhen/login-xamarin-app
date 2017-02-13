@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout5"
+        android:layout_weight="0.7">
+        <ImageView
+            android:src="@drawable/xamarinlogo"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/imageView1"
+            android:scaleType="fitCenter" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout1">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout4"
+                android:gravity="center">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout2"
+                    android:gravity="center">
+                    <ImageView
+                        android:src="@drawable/user"
+                        android:layout_width="30sp"
+                        android:layout_height="25dp"
+                        android:id="@+id/imageView2"
+                        android:scaleType="fitCenter" />
+                    <EditText
+                        android:inputType="textPersonName"
+                        android:id="@+id/UserNameTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="#3498db"
+                        android:minWidth="150dp"
+                        android:hint="user name"
+                        android:paddingLeft="20dp"
+                        android:textColor="#1abc9c" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:gravity="center">
+                    <ImageView
+                        android:src="@drawable/password"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/imageView3"
+                        android:scaleType="fitCenter" />
+                    <EditText
+                        android:inputType="textPassword"
+                        android:id="@+id/PasswordTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="#3498db"
+                        android:minWidth="150dp"
+                        android:hint="password"
+                        android:paddingLeft="20dp"
+                        android:textColor="#1abc9c" />
+                </LinearLayout>
+                <Button
+                    android:text="Sign in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/loginBtn"
+                    android:background="@drawable/loginbackground"
+                    android:minWidth="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout6"
+        android:layout_weight="6"
+        android:background="#3498db"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:text="@+string/SingUp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>
