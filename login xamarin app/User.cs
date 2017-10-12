@@ -15,5 +15,6 @@ namespace login_xamarin_app
     class User
     {
         public string name, password;
+
     }
 }
